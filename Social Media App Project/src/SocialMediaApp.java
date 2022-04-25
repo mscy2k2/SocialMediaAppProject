@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //Social media application
 
-public class SocialMediaApp {
+public class SocialMediaApp extends PostItems{
 	static Scanner scnr = new Scanner(System.in);
 	static int userMember = 0;
 	static String[] posts = new String[20];
@@ -13,8 +13,9 @@ public class SocialMediaApp {
 	static int userId = -1;
 
 	public static void displayMenu() {
+		
 		int numFeature = 0;
-
+			
 		System.out.println("      _____       ");
 		System.out.println("     /  _  |      ");
 		System.out.println(" ___/  |_| |____  ");
