@@ -1,3 +1,26 @@
+/*
+A) point out the class or code chunk where the antipattern is.
+ANSWER: The Antipattern is in the SocialMediaApp class. 
+I think the antipatterns includes Blob, Lava flow and somewhat Spaghetti code.
+
+B) propose how the antipattern can fixed. 
+ANSWER: The Antipattern can be fixed by identifying the 
+Blob(one class monopolizes the processing, and other classes primarily encapsulate data.) 
+Antipattern that exist in the program, then splitting and categorising common methods based 
+on their functionality into classes.
+Aligning the codes properly, adequate use of white spaces to meet standard code ethics and implementation.
+
+C) fix the anti-pattern and push your changes to the repo.  ( make sure you pull any changes that have been done before pushing your changes to avoid git-conflicts.) (also do not forget to add me to the repo).
+ANSWER: https://github.com/mscy2k2/SocialMediaAppProject
+
+D) test the application ( 1 vanilla use case) to make sure it still works. 
+ANSWER: Done
+
+E) Bonus: can you propose any of the software design patterns we covered to improve the design?
+ANSWER: Observer design pattern can be employed to improve the design of the social media app as it 
+would aid the timely update to the subscribers on new posts related to their accounts or profile.
+*/
+
 import java.util.Scanner;
 
 public class PostItems {
